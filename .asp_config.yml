@@ -1,0 +1,5 @@
+hindemith:
+  autotune: False
+  name_of_backend_to_use: "opencl"
+  template_path: "templates"
+  cuda_device_id: 0
