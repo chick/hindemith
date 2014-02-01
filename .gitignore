@@ -1,3 +1,6 @@
 .idea/
 *.o
 *.so
+examples/*.pyc
+examples/*.xml
+examples/*.cl
