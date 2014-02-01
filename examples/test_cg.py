@@ -2,7 +2,7 @@ __author__ = 'Michael J. Anderson'
 
 from numpy import *
 import scipy.sparse
-from hindemith import *
+from hindemith.hindemith import *
 
 import cg_solver
 

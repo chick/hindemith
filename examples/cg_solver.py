@@ -3,7 +3,7 @@
 from numpy import *
 import scipy.sparse
 
-from hindemith import *
+from hindemith.hindemith import *
 
 def setup_hindemith():
   defines['nd1'] = 1
