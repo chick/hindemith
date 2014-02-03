@@ -10,6 +10,14 @@ __author__ = "Michael J. Anderson"
 from hlib import *
 from asp.jit.asp_module import ASPModule
 import inspect
+import os.path
+import sys
+
+script_dir = os.path.dirname(os.path.abspath(__file__))
+
+sys.path.append(os.path.join(script_dir, "../templates"))
+
+print "sys.path ", sys.path
 
 # h compiler
 import PyAST 
