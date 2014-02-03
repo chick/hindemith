@@ -7,7 +7,10 @@ import ast
 import Templates
 from subprocess import call
 
-class HindemithBuildError(Exception): pass
+
+class HindemithBuildError(Exception):
+    pass
+
 try:
     import backend
 except ImportError as error:
